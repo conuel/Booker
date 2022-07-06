@@ -32,7 +32,7 @@ const BookList  = ({bestSellers, match, noMove, show, move_left, }) => {
     const end = page * resPerPage;
     let [pages, setPages] = useState(1)
 
-    API_KEY = process.env.NYT_API_KEY
+    const API_KEY = process.env.REACT_APP_NYT_API_KEY
 
 
     const bestSeller = async list => {
