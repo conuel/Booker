@@ -1,0 +1,45 @@
+.main-header{
+    width: 100%;
+    height: 80px;
+    background-color: #2F4F4F;
+    display: flex;
+    justify-content: space-between;
+    padding: .7rem 3rem;
+    color: antiquewhite;
+    clip-path: polygon(0% 0%, 100% 0%, 96% 100%, 0% 100%);
+
+}
+
+
+.logo-container{
+    font-size: 2.8rem;
+    font-weight: 500;
+    font-family: 'Lobster', cursive;
+    display: flex;
+    color: antiquewhite;
+}
+
+ .logo{
+     margin-top: 6px;
+     color: antiquewhite;
+}
+
+.options{
+    width: 23%;
+    display: flex;
+    justify-content: space-between ;
+    align-content: center;
+}
+
+.option{
+    padding-top: 1rem;
+    color: antiquewhite;
+    font-size: 1.2rem;
+    font-family: 'Lato', sans-serif;
+    font-weight: 600;
+}
+
+
+/*
+    
+*/

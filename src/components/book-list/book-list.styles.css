@@ -1,0 +1,169 @@
+.title{
+    height: 80px;
+    text-align: center;
+    padding-top: 20px;
+    font-size: 1.7rem;
+    font-family: 'Lobster', cursive; 
+}
+
+.book-list{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.first{
+    width: 50%; 
+    height: 700px;
+    padding-top: 1%;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.paginate{
+    width: 55%;
+    height: 30px;
+    margin: 10px auto;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.page{
+    width: 20%;
+    text-align: center;
+    margin-top: 3px;
+    font-size: 1.2em;
+    font-weight: 600;
+    font-family: 'lato', sans-serif;
+    color: darkslategrey;
+}
+
+.left, .right{
+    border: 2px solid #ffa949;
+    width: 18%;
+    border-radius: 3px 3px 3px 3px;
+    transition: transform .3s;
+}
+
+.left:hover, .right:hover{
+    background-color: floralwhite;
+    transform: scale(1.1);
+}
+
+.second{
+    display: flex;
+    flex-direction: column;
+}
+
+.move-left{
+    animation-name: myanimation1;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes myanimation1{
+    0% { margin-left: 25%; width: 50%}
+    100% { margin-left: -5.5%; width: 25%;}
+}
+
+.second{
+    width: 52%;
+    height: 850px;
+    position: relative;
+    right: -51%;
+    display: none;
+}
+
+.move-in{
+    display: flex;
+    animation-name: myanimation2;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes myanimation2{
+    0%{right: -51%; opacity: 0.1}
+    100%{right: -3%; opacity: 1;} 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*     background-color: darksalmon; */
+
+
+/*
+.title{
+    height: 80px;
+    text-align: center;
+    padding-top: 20px;
+    font-size: 1.7rem;
+    font-family: 'Lobster', cursive;  
+}
+
+.book-list{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.first{
+    width: 50%; 
+    padding-top: 1%;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+}
+
+.second{
+    display: flex;
+    flex-direction: column;
+}
+
+.move-left{
+    animation-name: myanimation1;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes myanimation1{
+    0% { margin-left: 25%; width: 50%}
+    100% { margin-left: -5.5%; width: 25%;}
+}
+
+.second{
+    width: 52%;
+    height: 850px;
+    position: relative;
+    right: -51%;
+    display: none;
+}
+
+.move-in{
+    display: flex;
+    animation-name: myanimation2;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes myanimation2{
+    0%{right: -51%; opacity: 0.1}
+    100%{right: -6%; opacity: 1;} 
+}
+*/
+

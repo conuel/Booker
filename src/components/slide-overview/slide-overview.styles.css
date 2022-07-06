@@ -1,0 +1,28 @@
+.overview{
+    width: 100%;
+    height: 400px;
+    background-color: #F8F8FF;
+    background: linear-gradient(90deg, #ffa949, transparent 90%), url('../../assets/Reading3.jpg') center/cover no-repeat;
+    padding-top: 18%;  
+}
+
+.intro{
+    margin-left: 2%;
+    width: 30%;
+    font-size: 1.3rem;
+    line-height: 1.5em;
+    font-weight: 600;
+    color: #ffffff;
+    font-family: 'Lato', sans-serif;
+    border-bottom: 3px antiquewhite solid;
+    padding-bottom: 3px;
+
+}
+
+
+
+
+
+
+
+/*F5F5F5*/

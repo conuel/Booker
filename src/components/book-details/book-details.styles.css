@@ -1,0 +1,79 @@
+.main-detail{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 100%;
+    height: 100%;
+    padding-top: 6px;
+    position: relative;
+}
+.detail-image{
+    margin: auto;
+    background-size: cover;
+    background-position: center;
+    border-radius: 3px 3px 3px 3px;
+    box-shadow: 0 10px 6px -6px #777;  
+}
+
+.buy{
+    position: absolute;
+    width: 15%;
+    height: 40px;
+    left: 76%;
+    top: 58.5%;
+    font-size: 1.2rem;
+    color: snow;
+    background-color:darkslategrey ;
+    border: 2px solid darkslategrey;
+    border-radius: 4px 4px 4px 4px;
+    
+}
+
+.buy:hover{
+    color: darkslategrey;
+    background-color: snow;
+}
+
+h1{
+    font-size: 2rem;
+    margin: auto;
+    margin-top: 5px;
+    font-family: 'Lato', sans-serif;
+    color: darkslategrey;
+}
+
+.by{
+    font-family: 'Lobster', cursive;
+    font-size: 1.3rem;
+    color: darkslategrey;
+    margin: auto;
+    margin-top: 0px;
+}
+
+.auth{
+    font-size: 2rem;
+    margin: auto;
+    text-align: center;
+    margin-top: 0px;
+    font-family: 'Lato', sans-serif;
+    color: rgb(48, 73, 73);
+}
+
+.descript{
+    font-family: 'Lato', sans-serif;
+    margin: auto;
+    font-size: 1.3rem;
+    margin-top: 5px;
+    color: darkslategrey;
+    width: 70%;
+    text-align: center;
+}
+
+.publisher{
+    font-family: 'Lato', sans-serif;
+    margin: auto;
+    margin-top: 0px;
+    font-size: 1.3rem;
+    color: darkslategrey;
+    text-align: center;
+}

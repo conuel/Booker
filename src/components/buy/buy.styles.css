@@ -1,0 +1,26 @@
+.links{
+    display: none;
+}
+
+.can-show{
+    display: flex;
+    flex-direction: column;
+    font-size: 1.1rem;
+    width: 22%;
+    position: absolute;
+    top: 64%;
+    left:76%;
+    color: darkslategrey;
+    background-color: floralwhite;
+    font-family: 'lato';
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+.book-links{
+    border-bottom: 1px dotted black;
+}
+
+.book-links:hover{
+    background-color: white;
+}

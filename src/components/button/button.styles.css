@@ -1,0 +1,18 @@
+.small-button{
+    width: 80%;
+    height: 40px;
+    position: absolute;
+    top: 80%;
+    left: 10%;
+    border: 2px white solid;
+    border-radius: 2px ;
+    columns: #000000;;
+    background-color:#ffa949;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    
+    text-transform: capitalize;
+    padding-top: 3%;
+    opacity: 0.8;
+
+}
